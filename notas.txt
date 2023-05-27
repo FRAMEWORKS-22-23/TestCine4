@@ -1,0 +1,14 @@
+Problemas:
+    - Versión de Mongodb Driver incompatible con versión de Node.js en Glitch 
+
+    https://www.mongodb.com/docs/drivers/node/current/compatibility/
+
+    Versión node en Glitch: 
+        $ node --version
+        v10.24.1
+
+    -> versión de Mongo driver <= 3.7
+
+
+    Por lo tanto: 
+        $ npm i mongodb@3.7
