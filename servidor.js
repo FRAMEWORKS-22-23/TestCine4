@@ -52,7 +52,9 @@ app.get('/peliculas', async (req, res) => {
 // servicio estático desde public 
 app.use('/', fileServerMiddleware);   
 
-app.listen(PUERTO, function () {
+
+//app.listen(PUERTO, function () {
+  app.listen(null, function () {  
   console.log('App escuchando en el puerto', PUERTO);
 });
 
