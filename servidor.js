@@ -53,8 +53,7 @@ app.get('/peliculas', async (req, res) => {
 app.use('/', fileServerMiddleware);   
 
 
-//app.listen(PUERTO, function () {
-  app.listen(null, function () {  
+app.listen(PUERTO, function () {
   console.log('App escuchando en el puerto', PUERTO);
 });
 
