@@ -12,3 +12,7 @@ Problemas:
 
     Por lo tanto: 
         $ npm i mongodb@3.7
+
+
+    IP para mongodb (efimera): 
+        $ curl https://ifconfig.me    
