@@ -16,3 +16,5 @@ Problemas:
 
     IP para mongodb (efimera): 
         $ curl https://ifconfig.me    
+        
+    MEJOR ANULAR PUERTOS...    
